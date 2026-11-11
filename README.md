@@ -9,8 +9,8 @@ Proyecto de análisis de datos retail para la empresa RetailPro.
 El objetivo es procesar, modelar y visualizar datos de ventas
 para habilitar decisiones informadas al equipo comercial de la empresa.
 
-## Estructura del repositorio
-
+## Estructura del repositor
+```
 Retailpro/
 ├── sql/
 │ ├── 01_etl_pipeline.sql
