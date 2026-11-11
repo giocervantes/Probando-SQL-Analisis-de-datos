@@ -9,7 +9,7 @@ Proyecto de análisis de datos retail para la empresa RetailPro.
 El objetivo es procesar, modelar y visualizar datos de ventas
 para habilitar decisiones informadas al equipo comercial de la empresa.
 
-## Estructura del repositor
+## Estructura del repositor con IA
 ```
 Retailpro/
 ├── sql/
@@ -22,6 +22,22 @@ Retailpro/
 ├── docs/
 │ └── checkpoint_docs.md
 └── README.md
+```
+
+## Estructura corregida:
+```
+Retailpro/
+├── sql/
+│ ├── Ventas_Tech_DB.sql
+│ ├── m4_consultas_negocios.sql
+│ ├── m4_consultas_negocios(REV).sql
+│ ├── m5_consultas_join.sql
+├── powerbi/
+│ ├── TP_6_Pipeline_ETL_Cervantes_Giordano.pbix
+│ └── TP8_Girodano_Cervantes_Checkpoint2.pbix
+├── docs/
+│ └── README.md
+└──
 ```
 
 ## Herramientas
@@ -46,7 +62,7 @@ Retailpro/
 
 ## Cómo abrir los archivos Power BI
 
-1. Descargá los archivos .pbix desde la carpeta powerbi/.
+1. Descargar los archivos .pbix desde el repositorio.
 2. Abrí Power BI Desktop → Archivo → Abrir → seleccioná el .pbix.
 3. Hacé clic en *Actualizar* para recargar los datos.
 
@@ -59,9 +75,11 @@ Retailpro/
 
 ## Tabla de cambios (para el Google Doc)
 
-#	Decía la IA	Cómo quedó	Por qué lo cambiaste
-1	PostgreSQL 15 + DBeaver	SQL Server + SQL Server Management Studio (SSMS) 22	El proyecto usa SQL Server, no PostgreSQL. La IA asumió el motor por defecto.
-2	Abrí DBeaver y conectate... / Ejecutá los scripts	Abrí SSMS 22... / Nueva consulta (Ctrl+N) / Ejecutar (F5)	Las instrucciones de DBeaver no aplican a SSMS; los atajos y el flujo son distintos.
-3	Pipeline_ETL_Apellido_Nombre.pbix	Pipeline_ETL_TuApellido_TuNombre.pbix (tu nombre real)	Placeholder genérico; el README debe tener el nombre real del archivo.
+#	Infor de la IA, cómo quedó	y por qué lo cambiaste:
+1	PostgreSQL 15 + DBeaver pero no usé ese soft. Lo reemplacé	SQL Server + SQL Server Management Studio (SSMS) 22.	El proyecto usa SQL Server, no PostgreSQL. La IA asumió el motor por defecto.
+
+2	Estructura de subcarpetas (sql/,powerbi/,docs). lo reemplacé con los datos datos, archivos reales del repo ya que la IA genero una estructura generica.
+
+3	Pipeline_ETL_Apellido_Nombre.pbix lo cambié por TP_6_Pipeline_ETL_Cervantes_Giordano.pbix (tu nombre real); el README debe tener el nombre real del archivo.
 
 
