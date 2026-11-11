@@ -51,13 +51,12 @@ Retailpro/
 
 ## Cómo ejecutar los scripts SQL
 
-1. Abrí *SQL Server Management Studio (SSMS) 22* y conectate a tu instancia de SQL Server.
-2. Seleccioná la base de datos retailpro.
-3. Abrí una *Nueva consulta* (Ctrl + N).
-4. Pegá o cargá los scripts en orden:
-   - 01_etl_pipeline.sql — Carga y limpieza de datos
-   - 02_pre_entrega_4.sql — Consultas analíticas
-   - 03_pre_entrega_5.sql — Vistas y optimización
+1. Abrí *SQL Server Management Studio (SSMS) 22* y conectate a tu instancia de SQL Server. Crea la BD y carga los datos
+2.Ejecuta 'Ventas_Tech_DB.sql'
+3. Seleccioná la base de datos correspondiente.
+4. Abrí una *Nueva consulta* (Ctrl + N).
+   - m4_consultas_negocios.sql
+   - m5_consultas_join.sql
 5. Hacé clic en *Ejecutar* (F5) y verificá los resultados en el panel inferior.
 
 ## Cómo abrir los archivos Power BI
@@ -71,15 +70,15 @@ Retailpro/
 - SQL Server (Express o superior)
 - SQL Server Management Studio 22
 - Power BI Desktop (versión gratuita)
-- Cuenta de GitHub
+- Cuenta de GitHub y tener nociones básicas.
 
 ## Tabla de cambios (para el Google Doc)
 
 #	Infor de la IA, cómo quedó	y por qué lo cambiaste:
-1	PostgreSQL 15 + DBeaver pero no usé ese soft. Lo reemplacé	SQL Server + SQL Server Management Studio (SSMS) 22.	El proyecto usa SQL Server, no PostgreSQL. La IA asumió el motor por defecto.
+1.	PostgreSQL 15 + DBeaver pero no usé ese soft. Lo reemplacé	SQL Server + SQL Server Management Studio (SSMS) 22.	El proyecto usa SQL Server, no PostgreSQL. La IA asumió el motor por defecto.
 
-2	Estructura de subcarpetas (sql/,powerbi/,docs). lo reemplacé con los datos datos, archivos reales del repo ya que la IA genero una estructura generica.
+2.	Estructura de subcarpetas (sql/,powerbi/,docs). lo reemplacé con los datos datos, archivos reales del repo ya que la IA genero una estructura generica.
 
-3	Pipeline_ETL_Apellido_Nombre.pbix lo cambié por TP_6_Pipeline_ETL_Cervantes_Giordano.pbix (tu nombre real); el README debe tener el nombre real del archivo.
+3.	Pipeline_ETL_Apellido_Nombre.pbix lo cambié por TP_6_Pipeline_ETL_Cervantes_Giordano.pbix (tu nombre real); el README debe tener el nombre real del archivo.
 
 
