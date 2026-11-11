@@ -22,6 +22,7 @@ Retailpro/
 ├── docs/
 │ └── checkpoint_docs.md
 └── README.md
+```
 
 ## Herramientas
 
